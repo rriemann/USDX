@@ -254,6 +254,8 @@ For linking and running the game, the following libraries are also required:
   * for current debian / ubuntu: 
     `sudo apt-get update && sudo apt-get install git fpc libsdl2-dev libsdl2-image-dev libsdl2-image-2.0-0 libsdl2-2.0-0 libsdl2-mixer-2.0-0 libsdl2-mixer-dev libsdl2-net-2.0-0 libsdl2-net-dev libsdl2-ttf-2.0-0 libsdl2-ttf-dev libsdl2-gfx-1.0-0 libsdl2-gfx-dev ffmpeg libavdevice-dev libsqlite3-0 libsqlite3-dev libpcre3 libpcre3-dev ttf-dejavu ttf-freefont portaudio19-dev lua5.1-dev libpng16-16 libopencv-highgui-dev libprojectm-dev`
   * for arch linux there is an aur package called [ultrastardx-git](https://aur.archlinux.org/packages/ultrastardx-git)
+  * for opensuse:
+    `sudo zypper in fpc Mesa-libGLESv2-devel Mesa-libGLESv1_CM-devel libSDL2-devel libSDL2_ttf-devel libSDL2_net-devel libSDL2_mixer-devel libSDL2_image-devel libSDL2_gfx-devel lua-devel libavformat52 libavfilter1 libavcodec52 libavutil-devel libswresample-devel libavcodec-devel libavformat-devel libportaudiocpp0 portaudio-devel`
 2. `git clone https://github.com/UltraStar-Deluxe/USDX`
 2. `cd USDX`
 3. `./configure` (or use _autoconf_)
